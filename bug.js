@@ -1,0 +1,1 @@
+This error occurs when using AsyncStorage in Expo with a large amount of data.  The AsyncStorage library has limitations on the size of data it can store.  Attempting to store more than the limit results in this cryptic error.  The error itself doesn't explicitly mention size limits, making debugging challenging.
